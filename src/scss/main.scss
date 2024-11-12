@@ -1,7 +1,12 @@
 @import "base";
 @import "layout";
-@import "modules/example";
+@import "modules/hero";
+@import "modules/horizontal-scroll";
 @import "bootstrap/scss/bootstrap-grid";
+
+body {
+  background-color: #555;
+}
 
 .row + .row {
   margin-top: 16px;

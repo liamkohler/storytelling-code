@@ -1,0 +1,24 @@
+.horizontal-scroll-container {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.horizontal-scroll {
+  display: flex;
+  width: 100vw; /* Adjust width based on the number of panels */
+  height: 100vh;
+}
+
+.panel {
+  min-width: 400vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  background: linear-gradient(90deg, #000, #fff, #000, #fff);
+
+  color: #fff;
+  border-right: 1px solid #ccc;
+}
