@@ -5,3 +5,44 @@
 .hero-section {
   min-width: 90vw;
 }
+
+.hero-section-1 {
+  background-image: url(../../src/img/hero-background1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.hero-faille {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.hero-monstre {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.hero-section-2 {
+  background-image: url(../img/hero-background2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-section-3 {
+  background-image: url(../img/hero-background3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-text {
+  background-image: url(../img/cadre.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #fff;
+  padding: 40px;
+}
