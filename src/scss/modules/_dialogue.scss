@@ -1,0 +1,32 @@
+.dialogue {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dialogue-background {
+  position: absolute;
+  z-index: -1;
+}
+
+.dialogue-overlay {
+}
+
+.dialogue-bulle-text {
+}
+
+.dialogue-background {
+  height: 200vh;
+  width: 100vw;
+  background-size: cover;
+  background-image: url(../img/fond-dialogue.png);
+  background-position: bottom;
+}
+
+.dialogue-roi {
+  margin: 70px;
+}
+
+.dialogue-baron {
+  margin-bottom: 360px;
+}
