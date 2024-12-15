@@ -1,5 +1,20 @@
 .porte {
+  background-image: url(../img/porte-background.png);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.port-container {
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
 }
 
 .porte-content {
+  p {
+    background-image: url(../img/bulle-epe.png);
+    background-size: cover;
+    padding: 15px 15px 90px 15px;
+  }
 }

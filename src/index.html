@@ -69,37 +69,48 @@
         </div>
       </div>
 
-      <div class="dialogue-background">
-        <!-- <img src="img/fond-dialogue.png" alt="chateau" /> -->
-      </div>
-      <div class="dialogue container">
-        <div class="dialogue-roi row">
-          <img class="col-5 offset-1" src="../src/img/roi.png" alt="Roi" />
-          <div class="dialogue-bulle-text col-4 offset-1">
-            <p>
-              Il est devenu crasseux, alcoolique et complètement obsédé pas son
-              épée !
-            </p>
+      <div class="dialogue-parallax">
+        <div class="dialogue-parallax-container">
+          <div class="dialogue-parallax-devant dialogue-parallax-plan">
+            <div class="dialogue-overlay">
+              <img src="../src/img/roi-isa-sol.png" alt="Roi-isa" />
+            </div>
           </div>
-        </div>
-        <div class="dialogue-baron row">
-          <div class="dialogue-bulle-text col-4">
-            <p>En plus il veut me marier avec un baron vieux et repoussant.</p>
+          <div class="dialogue-parallax-milieu dialogue-parallax-plan">
+            <div class="dialogue-roi row">
+              <img class="col-5 offset-1" src="../src/img/roi.png" alt="Roi" />
+              <div class="dialogue-bulle-text col-4 offset-1">
+                <p>
+                  Il est devenu crasseux, alcoolique et complètement obsédé pas
+                  son épée !
+                </p>
+              </div>
+            </div>
+            <div class="dialogue-baron row">
+              <div class="dialogue-bulle-text col-4">
+                <p>
+                  En plus il veut me marier avec un baron vieux et repoussant.
+                </p>
+              </div>
+              <img
+                class="col-7 offset-1"
+                src="../src/img/baron.png"
+                alt="Baron"
+              />
+            </div>
           </div>
-          <img class="col-7 offset-1" src="../src/img/baron.png" alt="Baron" />
+          <div
+            class="dialogue-parallax-background dialogue-parallax-plan"
+          ></div>
         </div>
       </div>
-      <div class="dialogue-overlay">
-        <img src="../src/img/roi-isa-sol.png" alt="Roi-isa" />
-      </div>
-
       <div class="climax">
         <div class="climax-text container">
           <div class="row">
-            <p class="offset-1">Ma sœur a eu raison de s’en aller</p>
+            <p class="col-4 offset-1">Ma sœur a eu raison de s’en aller</p>
           </div>
           <div class="row">
-            <p class="offset-5">
+            <p class="col-7 offset-5">
               Alors je vais faire pareil, mais avec l’épée d’Arthur
             </p>
           </div>
@@ -108,12 +119,14 @@
           <img src="../src/img/roi-sol.png" alt="Roi-sol" />
         </div>
       </div>
-      <div class="porte container">
-        <div class="porte-content row">
-          <p class="col-4 offset-5">
-            Je peut t’aider à déverrouiller la porte. Amène moi à la serrure
-          </p>
-          <img class="col-4 offset-5" src="../src/img/epee.png" alt="épée" />
+      <div class="porte">
+        <div class="port-container container">
+          <div class="porte-content row">
+            <p class="col-4 offset-7">
+              Je peut t’aider à déverrouiller la porte. Amène moi à la serrure
+            </p>
+            <img class="col-4 offset-6" src="../src/img/epee.png" alt="épée" />
+          </div>
         </div>
       </div>
     </main>
@@ -171,10 +184,3 @@
     <script src="js/main.js" type="module"></script>
   </body>
 </html>
-
-<!-- <div class="container">
-    <div class="row">
-      <div class="col">colonne 1</div>
-      <div class="col">colonne 2</div>
-    </div>
-  </div> -->

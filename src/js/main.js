@@ -1,3 +1,5 @@
+//horizontal scroll
+
 import { gsap } from "gsap";
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -27,3 +29,36 @@ gsap.to(".horizontal-scroll", {
     anticipatePin: 1,
   },
 });
+
+//parallax
+
+gsap
+  .timeline({
+    scrollTrigger: {
+      trigger: ".dialogue-parallax-container",
+      start: "center center",
+      scrub: 0.1,
+      pin: true,
+    },
+  })
+  .to(
+    ".dialogue-parallax-devant",
+    {
+      y: "-129vh",
+    },
+    0
+  )
+  .to(
+    ".dialogue-parallax-milieu",
+    {
+      y: "-200vh",
+    },
+    0
+  )
+  .to(
+    ".dialogue-parallax-background",
+    {
+      y: "-50vh",
+    },
+    0
+  );

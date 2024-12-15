@@ -43,6 +43,12 @@
   background-image: url(../img/cadre.png);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
   background-color: #fff;
   padding: 40px;
+}
+
+.hero-pillar {
+  z-index: 1;
+  margin: 0 -10vw;
 }

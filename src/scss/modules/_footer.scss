@@ -28,6 +28,7 @@ footer {
   padding-top: 50px;
   display: flex;
   align-items: flex-start;
+
   button {
     border: solid #fff 1px;
     border-radius: 5px;
@@ -37,6 +38,11 @@ footer {
     color: #fff;
     font-family: Harbour;
     font-size: 25px;
+  }
+
+  button:hover {
+    background-color: #fff;
+    color: #000;
   }
 }
 

@@ -1,32 +1,68 @@
-.dialogue {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+// .dialogue-parallax {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+// }
 
 .dialogue-background {
-  position: absolute;
-  z-index: -1;
 }
 
 .dialogue-overlay {
 }
 
 .dialogue-bulle-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/bulle-text2.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 50px;
 }
 
-.dialogue-background {
+.dialogue-parallax-background {
   height: 200vh;
   width: 100vw;
   background-size: cover;
-  background-image: url(../img/fond-dialogue.png);
   background-position: bottom;
 }
 
 .dialogue-roi {
-  margin: 70px;
+  padding: 50vh 0;
 }
 
 .dialogue-baron {
-  margin-bottom: 360px;
+}
+
+.dialogue-parallax {
+  margin-bottom: -60vh;
+}
+
+.dialogue-parallax-plan {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.dialogue-parallax-devant {
+  z-index: 1;
+  height: 250vh;
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  img {
+    width: 100vw;
+  }
+}
+
+.dialogue-parallax-milieu {
+  position: absolute;
+  top: 100px;
+}
+
+.dialogue-parallax-background {
+  z-index: -1;
+  height: 200vh;
+  background-image: url(../img/fond-dialogue.png);
 }
